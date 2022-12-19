@@ -15,6 +15,10 @@ export class PrismaNotificationsRepository implements NotificationsRepository {
     throw new Error('Method not implemented.')
   }
 
+  async findManyByRecipientId(recipientId: string): Promise<Notification[]> {
+    throw new Error('Method not implemented.')
+  }
+
   async create(notification: Notification): Promise<void> {
     const raw = PrismaNotificationMapper.toPrisma(notification)
 
