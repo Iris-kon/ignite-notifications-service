@@ -40,7 +40,7 @@ The project utilises the following technologies:
 ## Run project
 Copy the project to the desired folder with the following command:
 
-### `git clone  https://github.com/Thiago-kon/ignite-notifications-service`
+### `git clone  https://github.com/Iris-kon/ignite-notifications-service`
 
 Install dependences with:
 
